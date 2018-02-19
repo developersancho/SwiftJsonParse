@@ -12,6 +12,8 @@
 		E2A67F46203AC5BC005F7D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A67F44203AC5BC005F7D1A /* Main.storyboard */; };
 		E2A67F48203AC5BC005F7D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A67F47203AC5BC005F7D1A /* Assets.xcassets */; };
 		E2A67F4B203AC5BC005F7D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A67F49203AC5BC005F7D1A /* LaunchScreen.storyboard */; };
+		E2A67F53203ACBCC005F7D1A /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A67F52203ACBCC005F7D1A /* DetayViewController.swift */; };
+		E2A67F55203ADA6A005F7D1A /* DetailConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A67F54203ADA6A005F7D1A /* DetailConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E2A67F47203AC5BC005F7D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A67F4A203AC5BC005F7D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A67F4C203AC5BC005F7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A67F52203ACBCC005F7D1A /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+		E2A67F54203ADA6A005F7D1A /* DetailConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailConst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E2A67F47203AC5BC005F7D1A /* Assets.xcassets */,
 				E2A67F49203AC5BC005F7D1A /* LaunchScreen.storyboard */,
 				E2A67F4C203AC5BC005F7D1A /* Info.plist */,
+				E2A67F52203ACBCC005F7D1A /* DetayViewController.swift */,
+				E2A67F54203ADA6A005F7D1A /* DetailConst.swift */,
 			);
 			path = SwiftJsonParse;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A67F43203AC5BC005F7D1A /* ViewController.swift in Sources */,
+				E2A67F53203ACBCC005F7D1A /* DetayViewController.swift in Sources */,
+				E2A67F55203ADA6A005F7D1A /* DetailConst.swift in Sources */,
 				E2A67F41203AC5BC005F7D1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
